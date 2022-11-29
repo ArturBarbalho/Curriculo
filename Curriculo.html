@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        .container{
+            display: flex;
+            width: 900px;
+            margin: auto;
+        }
+        .info{
+            background-color: black;
+            width: 350px;
+            padding-bottom: 70px;
+        }
+        .name{
+            color: white;
+            width: 350px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            font-size: 30px;
+            margin-top: 100px;
+            text-align: center;
+        }
+        .Content{
+            max-width:270px;
+            color: rgb(130, 204, 238);
+            margin: auto;
+            font-size: larger;
+        }
+        .tittleSmall{
+            color: white;
+            background-color: rgb(2, 54, 121);
+            text-align: center;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            padding-top: 12px;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        img{
+            width: 20px;
+            height: 20px;
+            margin-left: 20px;
+        }
+
+        .contatos{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            height: 150px;
+        }
+        .row{
+            margin-left:10px;
+            display: flex;
+            
+        }
+        .subHeader{
+            color: white;
+            font-size: 18px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            margin-top: 60px;
+            margin-bottom: 60px;
+        }
+        .idioma{
+            color: white;
+        }
+        .rowIdioma{
+            display: flex;
+            width: 190px;
+            margin-left: 30px;
+        }
+        .details{
+            background-color: white;
+            width: 100%;
+            height: 115vh;
+        }
+        .titulo{
+            font-size: 30px;  
+            padding: 10px;
+            margin: auto;
+            color: white;
+            text-align: center;
+            background-color: rgba(10, 95, 207, 0.8);
+        }
+        .bloco{
+            padding-top: 30px;
+            
+        }
+
+        h3{
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .par{
+            max-width: 500px;
+            margin: auto;
+            font-size: larger;
+            color: gray;
+        }
+        span{
+            font-weight: bold;
+            color:rgb(109, 105, 105);
+        }
+
+    </style>
+</head>
+<body>
+    
+<div class="container">
+    <div class="info">
+        <p class="name" >ARTUR VINICIUS UMBELINO BARBALHO</p>
+        <p class="subHeader">DESENVOLVEDOR FRONT END</p>
+        <div class="tittleSmall">SOBRE MIM</div>
+        <p class="Content">Sou um desenvolvedor front end com
+            foco em React, tenho 24 anos e sou
+            apaixonado por tecnologia, busco uma
+            oportunidade de me juntar ao time e
+            provar minhas habilidades.
+            </p>
+        <div class="tittleSmall" style="margin-top: 20px ;">
+            CONTATOS
+        </div>
+        <div class="contatos">
+            <div class="row">
+                <img src="email.png" alt="">
+                <p class="Content" style="width:250px ;" >
+                    arthurvinicius907@gmail.com
+                </p>
+            </div>
+            <div class="row">
+                <img src="phone.png" alt="">
+                <p class="Content" style="margin-left: 30px ;" >
+                    (84) 99643-0239
+                </p>
+            </div>
+            <div class="row">
+                <img src="linkedin.png"  alt="">
+                <p class="Content"  >
+                    https://www.linkedin.com/in/artur-barbalho-08abb1219/
+                </p>
+            </div>     
+        </div>
+
+        <div class="tittleSmall" style="margin-top: 20px;" >
+            IDIOMAS
+        </div>
+        <div class="rowIdioma">
+            <p class="idioma" >Inglês:</p>
+            <p class='Content'>Avançado</p>
+        </div>
+        <div class="rowIdioma">
+            <p class="idioma" >Espanhol:</p>
+            <p class='Content'>Intermediário</p>
+        </div>
+        
+
+    </div>
+    <div class="details" >
+
+        <div class="bloco" >
+        <div class="titulo"  >
+            Cursos 
+        </div> 
+        <h3 >Técnico em informatica para internet -- IMD-UFRN</h3>
+        <p class="par" >
+            Aprendi as bases do desenvolvimento web vendo tecnologias como jquery, React js, native e Node js. 
+        </p>
+        <h3>
+            Curso React avançado -- Undemy
+        </h3>
+        <p class="par">
+            Curso de aprofundamento no React onde aprendi a desenvolver um projeto de forma profissional com boas práticas usando tecnologias como Next js, Typescript, Storybook, jest e Styled components.
+        </p>
+        </div>
+
+        <div class="bloco">
+         <div class="titulo"  >PROJETOS</div>   
+        </div>
+
+        <h3>
+            Landing page comercial
+        </h3>
+        <p class="par">
+            Projeto com foco em design e responsividade, feito com boas práticas.
+ 
+        </p>
+        <p class="par" style="margin-top: 20px;">
+            <span>
+                Link:
+            </span>
+            https://artlan.netlify.app/
+            
+        </p>
+        <p class="par" style="margin-top: 20px;">
+            <span>
+                Código:
+            </span>
+            github.com/ArturBarbalho/landin_page_portifolio
+            
+        </p>
+        <h3>
+            Movies
+        </h3>
+        <p class="par">
+            O site consome a api pública do MoviesDB e faz uso do server side
+rendering do next js para entregar uma navegação rápida ao usuário
+enquanto explora a imensa biblioteca de filmes.
+        </p>
+        <p class="par" style="margin-top: 20px;">
+            <span>
+                Link:
+            </span>
+            https://artmovies.netlify.app/
+            
+        </p>
+        <p class="par" style="margin-top: 20px;">
+            <span>
+                Código:
+            </span>
+            https://github.com/ArturBarbalho/movies
+            
+        </p>
+        <h3>
+            Controle de produtos
+        </h3>
+        <p class="par">
+            Site com sistema de login que permite ver, cadastrar e deletar
+produtos. projeto feito inteiro em Next js utilizando Prisma e Postgree
+        </p>
+        <p class="par" style="margin-top: 20px;">
+            <span>
+                Link:
+            </span>
+            https://artcrud.netlify.app/
+            
+        </p>
+        <p class="par" style="margin-top: 20px;">
+            <span>
+                Código:
+            </span>
+            https://github.com/ArturBarbalho/crud
+            
+        </p>
+
+
+    </div>
+</div>
+
+
+</body>
+</html>
